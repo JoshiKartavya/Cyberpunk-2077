@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D helmet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="main w-full">
+      <div class="w-full h-screen overflow-hidden">
+        <div class="nav w-full h-[10vh] flex flex-row justify-between items-center absolute top-0 left-0 px-12 py-10">
+          <img class="w-[200px] mix-blend-lighten" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="logo">
+          <div class="links flex flex-row gap-6">
+            <a href=""><h2 class="text-[#d9d9d9] text-sm">Home</h2></a>
+            <a href=""><h2 class="text-[#d9d9d9] text-sm">Store</h2></a>
+            <a href=""><h2 class="text-[#d9d9d9] text-sm">Library</h2></a>
+            <a href=""><h2 class="text-[#d9d9d9] text-sm">Wishlist</h2></a>
+            <a href=""><h2 class="text-[#d9d9d9] text-sm">Accout</h2></a>
+          </div>
+        </div>
+        <img class="absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten filter saturate-150 contrast-150" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="logo">
+        <canvas id="draw"></canvas>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
